@@ -1,0 +1,18 @@
+a.social {
+  margin: 0 1rem;
+  margin-top: -20px;
+  margin-bottom: 10px;
+  float: right;
+}
+
+a.social:hover {
+  transform: translateY(-2px);
+}
+
+a.twitter {
+  color: #49a1eb;
+}
+
+a.instagram {
+  color: black;
+}

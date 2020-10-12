@@ -1,0 +1,18 @@
+.footer {
+  position: fixed;
+  width: 100%;
+  bottom: 0; /* stick to bottom */
+  margin-top: 20px;
+}
+
+.footer span {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  padding: 10px;
+  background: lightgrey;
+  color:orange;
+  font-weight: bold;
+  border-top: 1px solid rgb(14, 99, 124);
+}

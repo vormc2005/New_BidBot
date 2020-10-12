@@ -1,0 +1,217 @@
+h1 {
+  text-align: center;
+}
+
+.link1, .link2, .link3 {
+  color:rgb(14, 99, 124);
+}
+.choice {
+  text-align: center;
+}
+.card{
+  border-color: orange;
+  padding: 10px;
+  line-height: 1rem;
+}
+h3{
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  color: orange;
+  text-align: center;
+}
+h5{
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  color: orange;
+}
+hr{
+  background-color:rgb(14, 99, 124);
+}
+.itemSearch, input {
+  margin-left: 10px;
+}
+
+.post-form{
+  margin-left:0px;
+}
+.cat-form{
+margin-left:85px
+}
+label{
+  font-family: 'Times New Roman', Times, serif;
+  color:rgb(14, 99, 124);
+}
+.card-footer{
+  background-color: white;
+}
+.postButton {
+  display: block;
+  margin: 0 auto;
+  background-color: rgb(14, 99, 124);
+  color:orange;
+  font-weight: bold;
+}
+h1{
+  color: rgb(14, 99, 124);
+}
+.pic{
+  float:left
+}
+.pic2{
+  float:right;
+  margin-top: -55px
+}
+.buy {
+  margin-left:40px;
+  border-color: orange;
+  color: #34495e;
+}
+.item-card{
+  border-color:  rgb(14, 99, 124);
+}
+.form-control{
+  border-color:  rgb(14, 99, 124);
+}
+#bid-input{
+  margin-left:32px;
+  border-color:  rgb(14, 99, 124);
+}
+.input, .itemSearch{
+  border-color:  rgb(14, 99, 124);
+}
+.card-title{
+  color: orange;
+  font-weight: bold;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.card-img{
+  height:100px;
+}
+.bid{
+  margin-left:20px;
+  border-color: orange;
+  color: #34495e;
+}
+.file-select {
+  border: 2px solid #dce4ec;
+  background:#34495e;
+  cursor:pointer;
+  line-height:2rem;
+  background:#dce4ec;
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 14px;
+ 
+}
+#img{
+  margin-left:0px;
+}
+.file-upload .file-select:hover{
+  border-color:#34495e;
+}
+.file-upload .file-select:hover {
+  background-color:#34495e;
+}
+.home1{
+  background-color: white;
+}
+.fun{
+  color: rgb(14, 99, 124);
+}
+.fun2{
+  color:orange;
+}
+option{
+  font-family: Arial, Helvetica, sans-serif;
+  color: rgb(14, 99, 124);
+}
+li{
+list-style: none;
+font-family: Arial, Helvetica, sans-serif ;
+color:  rgb(14, 99, 124);
+}
+h2{
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.bid{
+ float:left;
+ margin-left:-10px;
+}
+.card-footer{
+  background-color: rgb(122, 194, 122);
+}
+.collections{
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-size: xx-large;
+  color: black;
+  font-weight: bold;
+}
+
+.placeBid{
+  width:110px;
+}
+
+
+.header{
+margin-top:15px;
+}
+
+
+.carousel{
+  float:left;
+  width:500px;
+}
+
+.text{
+  float:right;
+  width: 500px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+ margin-top:20px;
+ color: gray;
+ text-decoration: underline;
+ text-decoration-color: rgb(122, 194, 122);
+
+}
+
+/* hides carousel default arrows */
+.carousel-control-prev-icon, .carousel-control-next-icon{
+  background-image: none;
+}
+
+
+
+@media only screen and (max-width: 600px) {
+
+  .carousel{
+    width:290px;
+  }
+
+  .text{
+    font-size: medium;
+    width:290px
+  }
+  h3{
+    font-size: large;
+  }
+ 
+.cats{
+  margin-left: -100px;
+}
+.itemSearch {
+ width: 300px;
+ margin-left: -75px;
+}
+.searchByName{
+  margin-top:120px;
+  margin-left:-50px;
+}
+.filter{
+  width:300px;
+  margin-left: -63px;
+}
+option{
+  font-size: x-small;
+}
+.content{
+  float:right;
+  margin-left: 90px;
+  margin-top: -140px;
+}
+}
