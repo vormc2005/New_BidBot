@@ -5,11 +5,12 @@ const {
     list, 
     create,
     update, 
-    remove
-    // productById   
+    remove,
+    read,
+    productById   
 } = require('../controllers/itemsApi')
 
-
+router.get('/products/:productId', read)
 
 router.get("/products", list)
 router.post("/products/create", create)
@@ -17,6 +18,6 @@ router.put("/products/:productId", update)
 router.delete("/products/:productId", remove)
 
 
-// router.param('productId', productById)
+router.param('productId', productById)
 
 module.exports =router;
