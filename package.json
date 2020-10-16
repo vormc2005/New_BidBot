@@ -1,7 +1,7 @@
 {
   "name": "bidbotenhanced",
   "version": "1.0.0",
-  "description": "",
+  "description": "",  
   "main": "server.js",
   "scripts": {
     "start": "node server.js",
@@ -27,5 +27,8 @@
   "devDependencies": {
     "concurrently": "^5.3.0",
     "nodemon": "^2.0.4"
+  }, 
+  "engines": {
+    "node": "12.x"
   }
 }
