@@ -107,16 +107,21 @@ class Bid extends Component {
     return (
     <Fragment>
       
-      <div className ="container mt-5">
+      <div className ="container mt-5" >
           <div className="row">
           <div className="col-12">
         
 
+      <div className="container mb-4" >
 
-      <form className="form-inline cat-form">
-        <div className="form-group col-md-6">
+      <form className="form-inline cat-form" >
+        <div className="form-group col-md-6" style={{textAlign:"center", justifyContent:'center'}}>
           <h3 className="cats">Shop <span className="fun">by</span> category</h3>
-          <select className="itemSearch custom-select" name="search" onChange={this.handleInputChange}>
+          <select 
+                className="itemSearch custom-select " 
+                style={{marginLeft:"0.0vh" }}
+                name="search" 
+                onChange={this.handleInputChange}>
             <option id="allItems" value="" name="search"  >
               ...
             </option>
@@ -149,10 +154,12 @@ class Bid extends Component {
             </option>
           </select>
         </div>
-        <h3 className="searchByName"><span className="fun">or </span>search <span className="fun">by </span>name</h3>
+        <div className="form-group col-md-6" style={{textAlign:"center", justifyContent:'center'}}>
+        <h3 className="searchByName"><span className="fun">or </span>search <span className="fun">by </span>name</h3>       
         <div>
           <input
             className="input form-control filter"
+            style={{ marginLeft:'0.01vh', width:"100%"}}
             placeholder="Search by name"
             type="text"
             onChange={this.handleInputChange.bind(this)}
@@ -160,10 +167,9 @@ class Bid extends Component {
             value={this.state.search}
           ></input>
         </div>
+        </div>
       </form>
-      <br></br>
-      <br></br>
-
+      </div>
 
       <div className="container" style={{marginBottom:"20vh"}}>
         <div className="row">

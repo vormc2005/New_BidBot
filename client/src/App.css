@@ -25,9 +25,9 @@ h5{
 hr{
   background-color:rgb(14, 99, 124);
 }
-.itemSearch, input {
-  margin-left: 10px;
-}
+/* .itemSearch, input {
+  margin-left: 100px;
+} */
 
 .post-form{
   margin-left:0px;
