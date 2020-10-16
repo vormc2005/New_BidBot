@@ -10,22 +10,32 @@
     border-bottom: 1px solid rgb(14, 99, 124);
 }
 
+
 .navbar-brand{
     color:orange !important;
     font-weight: bold;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
-  span{
+  /* span{
       color:orange;
-  }
+  } */
 
   .logo{
     color: rgb(14, 99, 124)
   }
 
 
-  .navbar-toggler{
-      background-color: orange;
+  button.navbar-toggler{
+     
+      color:black
+     
+  } 
+   span.navbar-toggler-icon{
+     background-color:orange; 
+     border-radius: 10%;
+        
      
   }
+
+  

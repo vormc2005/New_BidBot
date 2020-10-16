@@ -185,14 +185,14 @@ class Bid extends Component {
                       </div>                    
                       
                       <div className="col-md-8">
-                      <ul className="mt-5 ml-3">                          
-                          <li className="mb-1"><strong>Condition:</strong> {item.condition}</li>                          
+                      <ul className="mt-3 mb-4 ml-3">                          
+                          <li className="mb-1 "><strong>Condition:</strong> {item.condition}</li>                          
                           <li className="mb-1"><strong>Current bid: $ </strong>{item.startingbid}</li>                       
                           <li className="mb-1"><strong>Buyout price: $ </strong>{item.buyout} </li>
                         </ul>
                       </div>
                       
-                      <div className="row container-fluid">
+                      <div className="row container-fluid mt-2">
                        
                         <div className="col-md-6">
                           <button 

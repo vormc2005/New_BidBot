@@ -7,7 +7,7 @@ function Navbar({user, handleLogout}) {
 
 
   return (
-    <nav className="navbar navbar-expand-lg navbar-dark bg-white">
+    <nav className="navbar navbar-expand-lg navbar-light bg-white ">
 
       <img src="/images/bot1.png" 
             width="100px" 
@@ -16,26 +16,18 @@ function Navbar({user, handleLogout}) {
             alt=""
             />
 
-      <button 
-          className="navbar-toggler" 
-          type="button" 
-          data-toggle="collapse"
-          data-target="#navbarSupportedContent" 
-          aria-controls="navbarSupportedContent"
-          aria-expanded="false" aria-label="Toggle navigation">
-      <span className="navbar-toggler-icon"></span>
-      </button>
+<button className="navbar-toggler ml-auto" style={{width:'7vh', border:'none', marginRight:"2vh" }}type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+    <span className="navbar-toggler-icon "></span>
+  </button>
 
       <div className="collapse navbar-collapse" id="navbarSupportedContent">
 
-        <ul className="navbar-nav ml-auto ">
+        <ul className="navbar-nav ml-auto mt-2 mt-lg-0">
           {user ? (
            <>
-              <li className="nav-item">            
+              <li className="nav-item active">            
                   <Link
-                    to="/"
-                    className={
-                      window.location.pathname === "/" ? "nav-link active" : "nav-link"}
+                    to="/"  className={window.location.pathname === "/BidPost" ? "nav-link active" : "nav-link"  }                
                   >
                     Home 
                     <span> |</span>
