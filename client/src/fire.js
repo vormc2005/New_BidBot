@@ -1,4 +1,14 @@
-import firebase from 'firebase'
+// import firebase from 'firebase'
+import firebase from 'firebase/app';
+// import 'firebase/database'; // If using Firebase database
+// import 'firebase/storage';  // If using Firebase storage
+import 'firebase/auth';        // for authentication
+import 'firebase/storage';     // for storage
+import 'firebase/database';    // for realtime database
+import 'firebase/firestore';   // for cloud firestore
+import 'firebase/messaging';   // for cloud messaging
+import 'firebase/functions';   // for cloud functions
+
 
  var firebaseConfig = {
     apiKey: "AIzaSyD_0EvG6-Ut_OW4AVksu6RBgJ67F9R9hTA",
@@ -12,6 +22,6 @@ import firebase from 'firebase'
   };
   // Initialize Firebase
   const fire = firebase.initializeApp(firebaseConfig);
-  firebase.analytics();
+ 
 
   export default fire;
