@@ -1,5 +1,5 @@
 import React, {useState, useEffect} from 'react';
-import {BrowserRouter as Router, Route, Switch} from "react-router-dom";
+import {BrowserRouter as Router, Route} from "react-router-dom";
 import Navbar from "./components/Navbar"
 import Login from "./components/Auth/Login"
 import fire from './fire'
@@ -12,7 +12,7 @@ import PostPage from './Pages/PostPage'
 
 
 import './App.css';
-import { set } from 'lodash';
+
 
 function App() {
 

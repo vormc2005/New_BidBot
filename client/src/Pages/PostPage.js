@@ -1,6 +1,5 @@
-import API from "../utils/API";
+
 import React, { useState, useEffect } from "react"; //, useReducer taken out since not using
-import Footer from "../components/Footer";
 import {createProduct} from '../utils/API'
 
 
@@ -25,14 +24,9 @@ const {
     itemname,
     startingbid,
     buyout,
-    category,
-    condition,
-    shipping,
-    photo,
     loading,
     error,
     createdProduct,
-    redirectToProfile,
     formData
 } = values;
 

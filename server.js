@@ -1,7 +1,7 @@
 const express = require("express");
-const mongoose = require("mongoose");
 const itemsRoutes = require("./routes/itemsApi");
 const connectDB = require('./config/db')
+const path = require('path')
 // const path = require("path");
 
 
@@ -14,6 +14,14 @@ connectDB();
 
 //routes middleware
 app.use('/api', itemsRoutes)
+
+//serve static assets in production
+if(process.env.NODE_ENV === 'production'){
+    app.use(express.static('client/builld'));
+
+    app.get('*', (req, res)=>
+            res.sendFile(path.resolve(__dirname, 'client', 'build', 'index.html')));
+}
 
 const PORT = process.env.PORT || 5000;
 
