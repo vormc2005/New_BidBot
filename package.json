@@ -13,9 +13,11 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "axios": "^0.20.0",
     "config": "^3.3.2",
     "express": "^4.17.1",
     "express-validator": "^6.6.1",
+    "form-data": "^3.0.0",
     "formidable": "^1.2.2",
     "lodash": "^4.17.20",
     "mongoose": "^5.10.9"

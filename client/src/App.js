@@ -4,7 +4,11 @@ import Navbar from "./components/Navbar"
 import Login from "./components/Auth/Login"
 import fire from './fire'
 import HomePage from './Pages/HomePage'
-import Footer from './components/Footer/index'
+import Footer from './components/Footer/index';
+// import Postpage from './Pages/PostPage'
+import BidPost from './Pages/BidPost'
+import PostPage from './Pages/PostPage'
+
 
 
 import './App.css';
@@ -98,11 +102,14 @@ function App() {
        <>
        <Navbar hasAccount={hasAccount} setHasAccount={setHasAccount} user={user} handleLogout={handleLogout}/>
         <Route exact path = "/" component={HomePage} />
+        <Route exact path ="/postpage" component={PostPage}/>
+        <Route exact path ="/BidPost" component={BidPost}/>
       </>
      ):(
        <>
       <Navbar hasAccount={hasAccount} setHasAccount={setHasAccount} user={user} handleLogout={handleLogout}/>
       <Route exact path = "/" component={HomePage} />
+      <Route exact path ="/BidPost" component={BidPost}/>
       <Footer />
       <Route exact path="/signin">
         <Login email={email} 
@@ -117,6 +124,7 @@ function App() {
           passwordError = {passwordError}
           />
      </Route>
+    
      <Footer />
      </>
      )}

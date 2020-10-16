@@ -32,9 +32,9 @@ hr{
 .post-form{
   margin-left:0px;
 }
-.cat-form{
+/* .cat-form{
 margin-left:85px
-}
+} */
 label{
   font-family: 'Times New Roman', Times, serif;
   color:rgb(14, 99, 124);
@@ -60,7 +60,7 @@ h1{
   margin-top: -55px
 }
 .buy {
-  margin-left:40px;
+  margin-left:20px;
   border-color: orange;
   color: #34495e;
 }
@@ -71,7 +71,7 @@ h1{
   border-color:  rgb(14, 99, 124);
 }
 #bid-input{
-  margin-left:32px;
+  /* margin-left:32px; */
   border-color:  rgb(14, 99, 124);
 }
 .input, .itemSearch{
@@ -132,7 +132,7 @@ h2{
 }
 .bid{
  float:left;
- margin-left:-10px;
+ /* margin-left:-10px; */
 }
 .card-footer{
   background-color: rgb(122, 194, 122);
@@ -144,9 +144,18 @@ h2{
   font-weight: bold;
 }
 
-.placeBid{
-  width:110px;
+form.bid-input{
+  text-align: center; 
+ width: 100%;
 }
+
+.placeBid{
+  
+max-width: 95%;
+margin-left:20px;
+text-align: center;
+}
+
 
 
 .header{
@@ -209,9 +218,5 @@ margin-top:15px;
 option{
   font-size: x-small;
 }
-.content{
-  float:right;
-  margin-left: 90px;
-  margin-top: -140px;
-}
+
 }

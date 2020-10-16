@@ -1,8 +1,9 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import Footer from "../components/Footer/index";
+
 import 'bootstrap/dist/css/bootstrap.min.css';
 import Carousel from 'react-bootstrap/Carousel'
+
 
 
 
@@ -27,7 +28,7 @@ function Home() {
               </div>
              
 
-              <div class="card-body home">
+              <div className="card-body home">
            
 <div className="carousel">
 
@@ -84,7 +85,7 @@ function Home() {
         </div>
       </div>
       <br></br><br></br> <br></br><br></br>   
-      <Footer />
+     
     </div>
   );
 }

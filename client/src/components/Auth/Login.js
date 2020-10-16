@@ -1,4 +1,5 @@
 import React from 'react'
+import {useHistory } from "react-router-dom";
 import "./style.css"
 
 const Login=(props)=> {
@@ -14,6 +15,14 @@ const Login=(props)=> {
           emailError, 
           passwordError} = props;
 
+    const history = useHistory()
+
+    const handleSignClick =()=>{
+            handleLogin()
+            history.push('/')            
+            
+         }
+
     return (
         <section className="login">
             <div className="loginContainer">
@@ -26,7 +35,8 @@ const Login=(props)=> {
                 <div className="btnContainer">
                     {hasAccount ? (
                         <>
-                        <button onClick={handleLogin}>Sign in</button>
+                        {/* <button onClick={handleLogin}>Sign in</button> */}
+                        <button onClick={handleSignClick}>Sign in</button>
                         <p>Don't have an account ? <span onClick={()=> setHasAccount(!hasAccount)}>Sign up</span></p>
                         </>
                     ) : (

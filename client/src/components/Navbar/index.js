@@ -28,7 +28,7 @@ function Navbar({user, handleLogout}) {
 
       <div className="collapse navbar-collapse" id="navbarSupportedContent">
 
-        <ul className="navbar-nav ml-auto mt-2 mt-lg-0">
+        <ul className="navbar-nav ml-auto ">
           {user ? (
            <>
               <li className="nav-item">            
@@ -47,13 +47,13 @@ function Navbar({user, handleLogout}) {
                     to="/BidPost"
                     className={window.location.pathname === "/BidPost" ? "nav-link active" : "nav-link"}
                   >
-                    Categories <span> |</span>
+                    Products <span> |</span>
                   </Link>
                   </li>
                       <li className="nav-item">
                        <Link
-                         to="/PostPage"
-                         className={window.location.pathname === "/PostPage" ? "nav-link active" : "nav-link"}
+                         to="/postPage"
+                         className={window.location.pathname === "/postpage" ? "nav-link active" : "nav-link"}
                        >
                          Add item 
                          <span> |</span>
@@ -73,7 +73,7 @@ function Navbar({user, handleLogout}) {
 
                      <li className="nav-item">
                        <Link
-                         to="/Home" onClick={handleLogout}
+                         to="/" onClick={handleLogout}
                          className={window.location.pathname === "/PostPage" ? "nav-link active" : "nav-link"}
                        >
                          <ion-icon name="basket"></ion-icon>
