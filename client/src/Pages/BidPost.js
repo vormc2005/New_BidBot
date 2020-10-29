@@ -187,7 +187,8 @@ class Bid extends Component {
                       
                     <div className="row">
                         <div className="col-md-4">
-                        <ShowImage item={item._id} url="products"/>   
+                        <ShowImage item={item} url="products"/>  
+                        
                       </div>                    
                       
                       <div className="col-md-8">
