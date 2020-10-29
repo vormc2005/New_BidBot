@@ -1,7 +1,7 @@
 import React, {useState, useEffect} from 'react';
 import {BrowserRouter as Router, Route} from "react-router-dom";
 import Navbar from "./components/Navbar"
-import Login from "./components/auth/Login"
+import Login from "./components/Auth/Login"
 import fire from './fire'
 import HomePage from './Pages/HomePage'
 import Footer from './components/Footer/index';
