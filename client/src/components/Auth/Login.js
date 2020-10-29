@@ -25,6 +25,7 @@ const Login=(props)=> {
 
     return (
         <section className="login">
+            Login: dv@gmail.com password: Test#123
             <div className="loginContainer">
                 <label >UserName</label>
                 <input type="text" autoFocus required value={email} onChange = {e=>setEmail(e.target.value)}/>
