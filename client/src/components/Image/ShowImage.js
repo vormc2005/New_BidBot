@@ -8,7 +8,7 @@ function ShowImage({item}) {
         
         <div className='product-img'>
        
-          <img src={`https://localhost:5000/api/products/photo/${item._id}`} alt={item.itemname} className="mb-3" style={{maxHeight:"100%", maxWidth: "100%"}}/>  
+          <img src={`http://localhost:5000/api/products/photo/${item._id}`} alt={item.itemname} className="mb-3" style={{maxHeight:"100%", maxWidth: "100%"}}/>  
         </div>
     )
 }
